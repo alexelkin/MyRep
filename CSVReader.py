@@ -29,7 +29,7 @@ with open(path) as csvfile:
 #            print( "appending " + thing.strip() + " to " + newStr )
 #            print("{}: -{}-\n".format(i, thing.strip()))
             i+=1
-        print("New: " + newStr);
+        print("New: " + str(len(newStr)) + ": " + newStr)
         row_count += 1
     print( "Row " + str(row_count) )
 #        print(row[0], row[1])
