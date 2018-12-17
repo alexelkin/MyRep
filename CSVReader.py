@@ -1,7 +1,12 @@
 import sys
 import csv
 
-path = 'C:/work/KPMG/20181214/delim.txt'
+# path = 'C:/work/KPMG/20181214/delim.txt'
+# delim = "|"
+
+path = 'C:/work/git/MyRep/space_sep.txt'
+delim = " "
+
 
 #with open('c:/temp/foo/file1.csv', 'rt') as csvfile:
 
@@ -14,7 +19,7 @@ path = 'C:/work/KPMG/20181214/delim.txt'
 print('\n\nMow lets try disctionary\n')
 
 with open(path) as csvfile:
-    reader = csv.reader(csvfile, delimiter='|', quotechar='"')
+    reader = csv.reader(csvfile, delimiter=delim, quotechar='"')
 #    reader = csv.DictReader(csvfile, delimiter='|' )
     row_count = 0
     for row in reader:
