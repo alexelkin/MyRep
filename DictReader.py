@@ -16,7 +16,15 @@ print('\n\nMow lets try disctionary\n')
 with open(path) as csvfile:
 #    reader = csv.reader(csvfile, delimiter='|', quotechar='"')
     reader = csv.DictReader(csvfile, delimiter='|', restkey = "NOKEY" )
-    row_count = 0
     for row in reader:
+        print( "Type: " + str(type(row)) )
         print (row)
-        print (row['DocumentNo'])
+        row_string = ""
+        element_count = 0
+        for element in row.values():
+            if element_count != 0 :
+                row_string += ","
+            if element != None:
+                row_string += str(element)
+            element_count += 1
+        print( "Row: " + row_string )
