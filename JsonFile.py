@@ -7,8 +7,8 @@ def nonempty_val(v):
         return 0;
     if type(v['latest.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings']) == type(None):
         return 0;
-#    return v['latest.aid.median_debt.completers.overall']
-    return v['latest.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings']
+    return v['latest.aid.median_debt.completers.overall']
+#    return v['latest.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings']
 
 
 
