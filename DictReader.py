@@ -11,6 +11,9 @@ path = 'C:/work/KPMG/20181214/delim.txt'
 #         print (', '.join(row))
 #         print(row[" DocumentNo"], row[" Time    "])
 
+
+
+
 print('\n\nMow lets try disctionary\n')
 
 with open(path) as csvfile:
