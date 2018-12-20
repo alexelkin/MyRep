@@ -3,6 +3,7 @@ import numpy as npy
 from numpy.random import rand
 import json
 
+#https://collegescorecard.ed.gov/search/?name=Wiregrass%20Georgia%20Technical%20College&sort=salary:desc
 
 #https://stackoverflow.com/questions/7908636/possible-to-make-labels-appear-when-hovering-over-a-point-in-matplotlib
 
@@ -27,15 +28,14 @@ if 1: # picking on a scatter plot (matplotlib.collections.RegularPolyCollection)
         salary.append(school['latest.earnings.10_yrs_after_entry.working_not_enrolled.mean_earnings'])
         names.append(school['school.name'])
 
-    x, y, c, s = rand(4, 100)
     def onpick3(event):
         ind = event.ind
-        print( 'onpick3 scatter:', ind, npy.take(debt, ind), npy.take(salary, ind), npy.take(names, ind))
+        print( 'onpick3 scatter: Debt - ', npy.take(debt, ind), ', Salary - ', npy.take(salary, ind), npy.take(names, ind))
 
     fig = figure()
 
     ax1 = fig.add_subplot(111)
-    col = ax1.scatter(debt, salary, picker=True)
+    col = ax1.scatter(debt, salary, picker=True, marker='+')
     #fig.savefig('pscoll.eps')
     fig.canvas.mpl_connect('pick_event', onpick3)
 
