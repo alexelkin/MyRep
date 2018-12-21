@@ -2,6 +2,8 @@
 # Useful: https://techietweak.wordpress.com/2015/03/30/http-restful-api-with-python-requests-library/
 # Useful: https://stackoverflow.com/questions/17301938/making-a-request-to-a-restful-api-using-python
 
+# https://stackoverflow.com/questions/7750557/how-do-i-get-json-data-from-restful-service-using-python
+
 # Public services https://github.com/toddmotto/public-apis/blob/master/README.md
 # https://www.quora.com/Where-can-I-find-Free-Public-REST-APIs-preferably-JSON
 
