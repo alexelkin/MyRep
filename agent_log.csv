@@ -1,0 +1,43 @@
+GENT,AGENT FIRST NAME,AGENT LAST NAME,TIME,STATE,REASON CODE,MEDIA AVAILABILITY,SKILL AVAILABILITY,AGENT STATE TIME
+F9TDSP,Steve,Pahls,06:30:12,Login,,,"Basic Outbound Skill, Adv-Inb-Photos, Adv-Inb-Documents, Adv-Inb-Application-Other, Adv-Inb-Computer, Adv-Inb-Printer, Adv-Inb-Internet, Adv-Inb-Other-Help, Pri and Rat - 1 - 60, Pri and Rat - 1 - 30, Pri and Rat - 2 - 50, Pri and Rat - 3 - 50",00:12:09
+F9TDSP,Steve,Pahls,06:30:12,Not Ready,Not Ready,,,00:04:25
+F9TDSP,Steve,Pahls,06:34:38,Ringing,,,,00:00:00
+F9TDSP,Steve,Pahls,06:34:38,On Call,,,,00:00:46
+F9TDSP,Steve,Pahls,06:35:24,After Call Work,,,,00:00:06
+F9TDSP,Steve,Pahls,06:35:30,Not Ready,Not Ready,,,00:01:34
+F9TDSP,Steve,Pahls,06:37:04,Ready,,Calls,,00:01:18
+F9TDSP,Steve,Pahls,06:38:23,Ringing,,,,00:00:00
+F9TDSP,Steve,Pahls,06:38:23,On Call,,,,00:03:51
+F9TDSP,Steve,Pahls,06:42:14,After Call Work,,,,00:00:03
+F9TDSP,Steve,Pahls,06:42:17,Ready,,Calls,,00:00:04
+F9TDSP,Steve,Pahls,06:42:21,Logout,No Reason,,,321:06:09
+F9TDSP,Steve,Pahls,15:48:30,Login,,,Adv-Inb-Printer,00:07:13
+F9TDSP,Steve,Pahls,15:48:30,Not Ready,Not Ready,,,00:05:32
+F9TDSP,Steve,Pahls,15:49:10,DID Ringing,,,,00:00:18
+F9TDSP,Steve,Pahls,15:52:04,DID Ringing,,,,00:00:20
+F9TDSP,Steve,Pahls,15:52:24,DID Ringing,,,,00:00:04
+F9TDSP,Steve,Pahls,15:54:02,Ringing,,,,00:00:00
+F9TDSP,Steve,Pahls,15:54:02,On Call,,,,00:01:24
+F9TDSP,Steve,Pahls,15:55:26,Ready,,Calls,,00:00:07
+F9TDSP,Steve,Pahls,15:55:33,Not Ready,Not Ready,,,00:00:11
+F9TDSP,Steve,Pahls,15:55:44,Logout,Logout,,,00:00:14
+F9TDSP,Steve,Pahls,15:55:58,Login,,,,00:01:00
+F9TDSP,Steve,Pahls,15:55:58,Not Ready,Not Ready,,,00:01:00
+F9TDSP,Steve,Pahls,15:56:58,Logout,No Reason,,,00:00:04
+F9TDSP,Steve,Pahls,15:57:03,Login,,,Adv-Inb-Printer,01:08:36
+F9TDSP,Steve,Pahls,15:57:03,Not Ready,Not Ready,,,00:01:27
+F9TDSP,Steve,Pahls,15:58:30,Ringing,,,,00:00:00
+F9TDSP,Steve,Pahls,15:58:30,On Call,,,,00:00:12
+F9TDSP,Steve,Pahls,15:58:42,Ready,,Calls,,01:06:57
+F9TDSP,Steve,Pahls,17:05:39,Logout,Logout,,,985:17:00
+F9TDSP,Steve,Pahls,17:22:39,Login,,,"Basic Outbound Skill, Adv-Inb-Photos, Adv-Inb-Documents, Adv-Inb-Application-Other, Adv-Inb-Computer, Adv-Inb-Printer, Adv-Inb-Internet, Adv-Inb-Other-Help, Pri and Rat - 1 - 60, Pri and Rat - 1 - 30, Pri and Rat - 2 - 50, Pri and Rat - 3 - 50",00:19:36
+F9TDSP,Steve,Pahls,17:22:39,Not Ready,Not Ready,,,00:19:36
+F9TDSP,Steve,Pahls,17:42:14,Logout,Logout,,,00:00:00
+F9TDSP,Steve,Pahls,19:35:55,Login,,,,00:02:36
+F9TDSP,Steve,Pahls,19:35:55,Not Ready,Not Ready,,,00:00:44
+F9TDSP,Steve,Pahls,19:36:39,Ringing,,,,00:00:00
+F9TDSP,Steve,Pahls,19:36:39,On Call,,,,00:01:40
+F9TDSP,Steve,Pahls,19:38:19,After Call Work,,,,00:00:03
+F9TDSP,Steve,Pahls,19:38:23,Not Ready,Not Ready,,,00:00:08
+F9TDSP,Steve,Pahls,19:38:31,Logout,Logout,,,34:51:42
+F9TDSP,Steve,Pahls,21:00:00,Logout,Logout,,,334:35:55

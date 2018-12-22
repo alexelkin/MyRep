@@ -26,14 +26,22 @@ url = 'https://api.five9.com/wsadmin/v10_2/AdminWebService?wsdl&user=TPI-API@sdp
 client = Client(wsdl=url, wsse=UsernameToken('TPI-API@sdp.tam', 'TimelinePI2018'), transport=Transport(session=session))
 # pprint(client.wsdl.messages)
 
+repoty_folder = 'Call Log Reports'
+report = 'Call Log'
+
+# repoty_folder = 'Agent Reports'
+# report = 'Agent State Details'
+
+
+
 with client.settings(raw_response=True):
 
     time_criteria = client.get_type('ns0:reportTimeCriteria')
     report_criteria = client.get_type('ns0:customReportCriteria')
-    my_time = time_criteria(start='2018-09-18T21:00:00.000-07:00', end='2018-12-20T21:00:00.000-07:00')
+    my_time = time_criteria(start='2018-09-20T21:00:00.000-07:00', end='2018-12-20T21:00:00.000-07:00')
     my_criteria = report_criteria(time=my_time)
 
-    response = client.service.runReport(folderName='Call Log Reports', reportName = 'Call Log', criteria = my_criteria)
+    response = client.service.runReport(folderName=repoty_folder, reportName = report, criteria = my_criteria)
 
     # response is now a regular requests.Response object
     print( "Type of response: " + str(type(response)))
