@@ -4,3 +4,5 @@
 .idea/misc.xml
 .idea/MyRep.iml
 .idea/workspace.xml
+*.xml
+*.iml
