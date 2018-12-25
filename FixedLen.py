@@ -1,10 +1,7 @@
-def slices(s, *args):
 
-    print( 'S = ', s )
-    print('In slices, arg = ', *args )
+def slices(s, *args):
     position = 0
     for length in args:
-        print('Length is ', length)
         yield s[position:position + length]
         position += length
 
