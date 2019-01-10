@@ -9,11 +9,11 @@ delim = "|"
 # path = 'C:/work/KPMG/20190108/Apdata_BSAS_01jan2017-15jan2017_QA.txt'
 # outfile = 'C:/work/KPMG/20190108/Apdata_BSAS_01jan2017-15jan2017_QA.csv'
 
-# path = 'C:/work/KPMG/20190108/Apdata_BSIK_01jan2017-15jan2017_QA.txt'
-# outfile = 'C:/work/KPMG/20190108/Apdata_BSIK_01jan2017-15jan2017_QA.csv'
+path = 'C:/work/KPMG/20190110/Apdata_BSIS_01jan2017-15jan2017_QA.txt'
+outfile = 'C:/work/KPMG/20190110/Apdata_BSIS_01jan2017-15jan2017_QA.csv'
 
-path = 'C:/work/KPMG/20190108/APdata_BKPF_01jan2017-15jan2017_QA.txt'
-outfile = 'C:/work/KPMG/20190108/APdata_BKPF_01jan2017-15jan2017_QA.csv'
+# path = 'C:/work/KPMG/20190110/Apdata_BSEG_01jan2017-15jan2017_QA_full.txt'
+# outfile = 'C:/work/KPMG/20190110/Apdata_BSEG_01jan2017-15jan2017_QA_full.csv'
 
 
 
