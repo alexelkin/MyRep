@@ -30,7 +30,7 @@ outfile = 'C:/work/KPMG/20190110/Apdata_BSIS_01jan2017-15jan2017_QA.csv'
 with open(outfile, 'w') as fout:
 
     with open(path) as csvfile:
-        reader = csv.reader(csvfile, delimiter=delim, quotechar='"')
+        reader = csv.reader(csvfile, delimiter=delim)
         row_count = 0
         for row in reader:
 #            print (row_count, row)
